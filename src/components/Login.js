@@ -63,7 +63,7 @@ const Login = () => {
                 <input type="text" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
                 <input type="password" placeholder='Password' value={password} onChange={e => setPassword(e.target.value)} />
 
-                <a href="#">Forgot password?</a>
+                <p className='login__linkText'>Forgot password?</p>
 
                 <button type='submit' className='login__btn login__loginBtn' onClick={e => handleLogin(e)}>Login</button>
             </form>
@@ -82,7 +82,7 @@ const Login = () => {
 
         <div className="login__register">
             <p>Not a member?</p>
-            <a href="#" onClick={handleRegister}>Register now</a>
+            <p className='login__linkText' onClick={handleRegister}>Register now</p>
         </div>
     </div>
   )
