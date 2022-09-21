@@ -7,14 +7,14 @@
     align-items: center;
 }
 
-.login a {
+.login__linkText {
     color: #0074B5;
     font-weight: 500;
     padding: 10px 0;
     text-decoration: none;
 }
 
-.login a:hover {
+.login__linkText a:hover {
     color: #0d3c57;
 }
 
