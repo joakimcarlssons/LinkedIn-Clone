@@ -7,7 +7,6 @@ import '../styles/Header.css';
 import { auth } from '../firebase';
 import { logout, selectUser } from '../features/userSlice';
 import HeaderOption from './HeaderOption';
-import avatar from '../assets/jc_icecream.jpg';
 import Avatar from './Avatar';
 
 const Header = () => {
