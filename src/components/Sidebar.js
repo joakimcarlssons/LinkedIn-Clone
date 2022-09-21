@@ -4,7 +4,6 @@ import { useSelector } from 'react-redux';
 import { selectUser } from '../features/userSlice';
 import Avatar from './Avatar';
 import '../styles/Sidebar.css';
-import avatar from '../assets/jc_icecream.jpg';
 
 const Sidebar = () => {
     const user = useSelector(selectUser);
